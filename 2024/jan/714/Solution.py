@@ -1,6 +1,12 @@
 from typing import List
 
-
+'''
+714. Best Time to Buy and Sell Stock with Transaction Fee
+Dynamic Programming Solution:
+The maximum profit of day n has two conditions:
+1. day n-1 has stock in hand
+2. day n-1 has no stock in hand
+'''
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
         n = len(prices)
