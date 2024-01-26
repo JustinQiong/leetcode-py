@@ -2,7 +2,7 @@
 5. Longest Palindromic Substring
 Iterate through each of the char of string s.
 Expand the substring from both left and right direction.
-Find out the maxLen and the correspondent left point
+Find out the maxLen and the corresponding left point
 and return the substring.
 """
 class Solution:
