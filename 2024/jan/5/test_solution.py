@@ -6,3 +6,4 @@ class TestSolution(TestCase):
         solution = Solution()
         self.assertEqual("bab", solution.longestPalindrome("babad"))
         self.assertEqual("bb", solution.longestPalindrome("cbbd"))
+        self.assertEqual("a", solution.longestPalindrome("a"))
