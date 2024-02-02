@@ -1,1 +1,1 @@
-#### This is my practice solution for algorithm solutions on leetcode
+#### This is my practice repository for algorithm solutions on leetcode
