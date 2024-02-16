@@ -12,12 +12,8 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        n = len(nums)
-        if n == 1:
-            return nums
-
         j = 0
-        for i in range(n):
+        for i in range(len(nums)):
             if nums[i] != 0:
                 nums[j], nums[i] = nums[i], nums[j]
                 j += 1
