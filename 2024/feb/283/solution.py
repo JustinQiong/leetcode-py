@@ -7,6 +7,8 @@ i is point to each element of the array.
 j is point to the element not zero.
 Swap the element of i and j.
 """
+
+
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -17,5 +19,3 @@ class Solution:
             if nums[i] != 0:
                 nums[j], nums[i] = nums[i], nums[j]
                 j += 1
-
-        return nums
